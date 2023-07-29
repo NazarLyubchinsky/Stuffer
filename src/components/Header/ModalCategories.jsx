@@ -27,17 +27,16 @@ const ModalCategories = () => {
 				{isModalOpen && (
 					<div className={s.modal_overlay} onClick={closeModal}>
 						<div className={s.modal_content}>
-							<span className={s.close_modal_button} onClick={closeModal}>
-								&times;
-							</span>
 							<section className={s.sidebar}>
+								<span className={s.close_modal_button} onClick={closeModal}>
+									&times;
+								</span>
 								<Link to={ROUTES.HOME} className={s.icon} >
 									<span style={{
 										color: '#6c3eb8',
 										fontSize: '25px',
 									}}>S</span> <span>TUFFER</span>
 								</Link>
-								{/* <div className={s.title}>CATEGORIES</div> */}
 								<nav >
 									<ul className={s.menu} >
 										{list.map(({ id, name }) => (
