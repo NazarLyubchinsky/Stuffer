@@ -53,7 +53,7 @@ const Favorite = () => {
 									</div>
 									<div
 										className={s.close}
-									onClick={() => removeItem(item.id)}
+										onClick={() => removeItem(item.id)}
 									>
 										<svg className="icon">
 											<use
