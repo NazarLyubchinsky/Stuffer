@@ -40,7 +40,7 @@
 	width: 320px;
 	height: 100vh;
 	z-index: 99;
-	padding: 24px;
+	padding: 0 24px;
 }
 
 @keyframes slideIn {
