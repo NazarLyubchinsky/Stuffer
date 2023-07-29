@@ -33,7 +33,7 @@ const ModalCategories = () => {
 								<span className={s.close_modal_button} onClick={closeModal}>
 									&times;
 								</span>
-								<Link to={ROUTES.HOME} className={s.icon} >
+								<Link to={ROUTES.HOME} className={s.icon} onClick={closeModal} >
 									<span style={{
 										color: '#6c3eb8',
 										fontSize: '25px',
