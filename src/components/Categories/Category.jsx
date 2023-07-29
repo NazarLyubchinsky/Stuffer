@@ -14,8 +14,8 @@ const Category = () => {
 
 	const defaultValues = {
 		title: "",
-		price_min: 0,
-		price_max: 0,
+		price_min: '',
+		price_max: '',
 	};
 
 	const defaultParams = {
@@ -61,6 +61,7 @@ const Category = () => {
 
 	const handleChange = ({ target: { value, name } }) => {
 		setValues({ ...values, [name]: value });
+		console.log(values)
 	};
 
 	const handleSubmit = (e) => {
