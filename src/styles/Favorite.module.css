@@ -21,6 +21,8 @@
 	background: var(--bg);
 	display: flex;
 	margin-top: 15px;
+	flex-direction: row-reverse;
+	position: relative;
 }
 .item__left {
 	width: 50%;
@@ -64,6 +66,9 @@
 
 .close {
 	cursor: pointer;
+	position: absolute;
+	right: 11px;
+	top: 11px;
 }
 
 .close svg {
