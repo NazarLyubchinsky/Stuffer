@@ -25,7 +25,9 @@ const ModalCategories = () => {
 				</div>
 
 				{isModalOpen && (
-					<div className={s.modal_overlay} onClick={closeModal}>
+					<>
+						<div className={s.modal_overlay} onClick={closeModal}>
+						</div>
 						<div className={s.modal_content}>
 							<section className={s.sidebar}>
 								<span className={s.close_modal_button} onClick={closeModal}>
@@ -71,7 +73,7 @@ const ModalCategories = () => {
 							</section>
 
 						</div>
-					</div>
+					</>
 				)}
 			</div>
 		</>

@@ -31,9 +31,16 @@
 }
 
 .modal_content {
-	border-radius: 4px;
 	animation: slideIn 0.3s ease;
 	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: var(--dark);
+	width: 320px;
+	height: 100vh;
+	z-index: 99;
+	padding: 24px;
 }
 
 @keyframes slideIn {
@@ -61,7 +68,6 @@
 
 .sidebar {
 	width: 100%;
-	padding: 0 30px;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -100,5 +106,5 @@
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 }
