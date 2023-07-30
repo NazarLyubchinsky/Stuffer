@@ -74,16 +74,13 @@
 	background: none;
 	outline: none;
 	width: 100%;
+	
 }
 
 .account {
 	display: flex;
 	align-items: center;
 	column-gap: 20px;
-}
-
-.favourites {
-	cursor: pointer;
 }
 
 .account svg {
@@ -107,9 +104,17 @@
 .icon-cart:hover {
 	fill: var(--white);
 }
+.favourites {
+	cursor: pointer;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
 
 .cart {
 	position: relative;
+	display: flex;
+	align-items: center;
 }
 
 .count {

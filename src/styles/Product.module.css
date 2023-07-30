@@ -115,6 +115,9 @@
 .favourite:hover {
 	background: #7a8690;
 }
+.favourite:active{
+	background: var(--violet-dark);
+}
 
 .bottom {
 	display: flex;

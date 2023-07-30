@@ -8,6 +8,10 @@ import { ROUTES } from '../../utils/routes';
 import Product from './Product';
 import Products from './Products';
 
+
+// loader
+import OverlayLoader from "overlay-loading-react";
+
 const SingleProduct = () => {
 	const dispatch = useDispatch();
 	const { id } = useParams();
@@ -29,8 +33,18 @@ const SingleProduct = () => {
 	}, [data, dispatch, list.length]);
 
 
+
 	return !data ? (
-		<section className='preloader'>Loading..</section>
+		<div className="preloader" style={{
+			padding: '50px',
+			display: 'block'
+		}}>
+			<OverlayLoader overlayContainerStyle={{
+				position: 'unset',
+				backgroundColor: 'unset'
+			}} loadingText='Loading...' active />
+
+		</div>
 	) : (
 		<>
 			<Product  {...data} />
