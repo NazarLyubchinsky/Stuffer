@@ -19,6 +19,8 @@ const Home = () => {
 	}, [dispatch, list.length]);
 
 
+
+	
 	return (
 		<>
 			<Poster />

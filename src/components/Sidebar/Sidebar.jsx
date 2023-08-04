@@ -6,12 +6,13 @@ import s from "../../styles/Sidebar.module.css";
 
 const Sidebar = () => {
 	const { list } = useSelector(({ categories }) => categories);
+	const limit = 5;
 	return (
 		<section className={s.sidebar}>
 			<div className={s.title}>CATEGORIES</div>
 			<nav>
 				<ul className={s.menu}>
-					{list.map(({ id, name }) => (
+				{list.slice(0, limit).map(({ id, name }) => (
 						<li key={id}>
 							<NavLink
 								className={({ isActive }) =>
