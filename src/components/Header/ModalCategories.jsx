@@ -9,6 +9,7 @@ import { ROUTES } from '../../utils/routes'
 const ModalCategories = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const { list } = useSelector(({ categories }) => categories);
+	const limit = 5;
 
 	const handleButtonClick = () => {
 		setIsModalOpen(true);
@@ -41,7 +42,7 @@ const ModalCategories = () => {
 								</Link>
 								<nav >
 									<ul className={s.menu} >
-										{list.map(({ id, name }) => (
+									{list.slice(0, limit).map(({ id, name }) => (
 											<li key={id} >
 												<NavLink onClick={() => {
 													setIsModalOpen(false);
