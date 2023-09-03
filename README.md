@@ -26,7 +26,7 @@ Please note that there might be issues with loading products from server on the 
 
 ## main features
 
-- Key Features That Make the Store STUFFER Special
+ Key Features That Make the Store STUFFER Special:
 - Registration and Login: Registration and login are made easy with the option to either register as a new user or log in with an existing account.
 - Personal Profile: After logging in, you have the ability to update your personal information. You can modify your name, email address, password, and upload an avatar to personalize your account.
 - Search System: Our search system is conveniently located in the website header. You can search for products by their names.
