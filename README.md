@@ -36,7 +36,7 @@ Please note that there might be issues with loading products from server on the 
 
 ## Backend
 
-The application uses a fake REST API provided by [json-server][([https://github.com/typicode/json-server](https://privateauth.onrender.com))](https://fakeapi.platzi.com/en/rest/users) 
+The application uses a fake REST API provided by (https://privateauth.onrender.com))](https://fakeapi.platzi.com/en/rest/users) 
 
 ## Frontend
 - The latest version of React is used.
