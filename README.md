@@ -1,71 +1,76 @@
 # https://cozy-taiyaki-2cb90b.netlify.app/
-# Getting Started with Create React App
+# Demo website of the PATERN store.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains code for a React application developed to create a user interface for a store with private authentication support. The store includes many features to provide convenience and functionality for users.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Live Demo](#live-demo)
+- [Description](#description)
+- [The main features of the store include](#main-features)
+- [Backend](#backend)
+- [Frontend](#frontend)
+- [UI Requirements](#ui-requirements)
+- [Instructions](#instructions)
+- [Contact](#contact)
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live project on Netlify: [Demo store App]([https://main--demo-book-list.netlify.app/](https://main--preeminent-travesseiro-4bf4a2.netlify.app/))
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Please note that there might be issues with loading products from server on the live demo.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
 
-### `npm run build`
+ The application is designed with user-friendly features and a responsive layout.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## main features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Private Authentication: Every user must authenticate themselves before using the store, ensuring data security and confidentiality.
+- Product Catalog: We offer a product catalog that can be easily browsed by users. You can search for products in different categories and filter them by price, as well as search by name.
+- Product Creation: Users have the option to create new products and add them to the catalog. This helps keep the product range constantly updated.
+- Add to Cart: Users can add selected products to their cart for convenient order placement.
+- Order Placement: When the cart is filled, users can place an order, specifying delivery and other necessary details.
+- Product Filtering: The product catalog supports the ability to filter by price, sorting them in ascending or descending order. This allows users to quickly find products that meet their requirements.
+- Product Search: The store also features a search function that allows users to find specific products by name.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Our application is designed with user convenience and the needs of a modern online store in mind. It is a convenient and efficient tool for shopping and managing products.
 
-### `npm run eject`
+## Backend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The application uses a fake REST API provided by [json-server]([https://github.com/typicode/json-server](https://privateauth.onrender.com)) 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Frontend
+- The latest version of React is used.
+- Functional components and JSX are employed.
+- Icons from the [lucide-react](https://mui.com/material-ui/material-icons/) library are used.
+- React Forms: I leveraged React to create and manage forms within the application. This allows for a dynamic and responsive user experience when capturing and submitting data.
+- Material-UI for Input Elements: I incorporated Material-UI components for input fields to enhance the visual appeal and usability of the form.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## UI Requirements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application follows an eye-friendly design and is responsive.
 
-## Learn More
+## Instructions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the project on your local machine:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone this repository: `git clone [repo-link]`
+2. Navigate to the project directory: `cd [project-folder]`
+3. Install dependencies: `npm install`
+4. Run the Vite development server: `npm run start`
+5. Access the application in your browser at `http://localhost:3000` or link provided by vite
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For any inquiries or feedback, feel free to contact:
 
-### Analyzing the Bundle Size
+- Nazar Lyubchinskyi
+- GitHub: (https://github.com/NazarLyubchinsky)
+- linkedin: (https://www.linkedin.com/in/nazar-lyubchynskyi-37a89026b/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Enjoy exploring the React application and its features!
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
