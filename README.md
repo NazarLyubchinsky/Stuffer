@@ -1,7 +1,6 @@
-# https://cozy-taiyaki-2cb90b.netlify.app/
-# Demo website of the PATERN store.
+# Demo website of the STUFFER store.
 
-This repository contains code for a React application developed to create a user interface for a store with private authentication support. The store includes many features to provide convenience and functionality for users.
+This repository contains code for a React application developed to create a user interface for a store. The store includes features to provide convenience and functionality for users.
 
 ## Table of Contents
 
@@ -16,7 +15,7 @@ This repository contains code for a React application developed to create a user
 
 ## Live Demo
 
-Check out the live project on Netlify: [Demo store App]([https://main--demo-book-list.netlify.app/](https://main--preeminent-travesseiro-4bf4a2.netlify.app/))
+Check out the live project on Netlify: [Demo store App] https://cozy-taiyaki-2cb90b.netlify.app/
 
 Please note that there might be issues with loading products from server on the live demo.
 
